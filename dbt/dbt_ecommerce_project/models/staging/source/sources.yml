@@ -1,0 +1,9 @@
+sources:
+  - name: raw
+    database: ecommerce_db
+    schema: raw
+    tables:
+      - name: customers
+      - name: orders
+      - name: shipments
+      

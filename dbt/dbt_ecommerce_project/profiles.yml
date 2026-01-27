@@ -1,0 +1,14 @@
+
+dbt_ecommerce_project:
+  outputs:
+    dev:
+      account: WYOCPNK-HC20358
+      database: ecommerce_db
+      password: redhat123
+      role: transform
+      schema: raw
+      threads: 10
+      type: snowflake
+      user: tarif
+      warehouse: dbt_wh
+  target: dev
